@@ -1,1 +1,1 @@
-# In this project I have created Github Profile Searcher, Where you have to enter the user name then it will find github profile according to user name.
+# In this project I have created Github Profile Searcher, Where you have to enter github user name then it will show the github profile.
