@@ -1,1 +1,0 @@
-# In this repository i will upload my mini projects using html, Css and javaScript.
