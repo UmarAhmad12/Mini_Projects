@@ -1,1 +1,1 @@
-# In this Project I have Created a Expense Tracker App.
+# In this Project I have Created a Expense Tracker Application.
