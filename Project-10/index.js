@@ -44,3 +44,16 @@ const generatePassword = (passLength) => {
     passwordEl.innerHTML = password;
     console.log("password", password);
   });
+
+  passwordEl.addEventListener("click", (e) => {
+    if (e.target.innerText.length > 0) {
+      navigator.clipboard
+        .writeText(passwordEl.innerText)
+        .then(() => {
+          alert("Copied to clipboard");
+        })
+        .catch((err) => {
+          alert("could not copy");
+        });
+    }
+  });
