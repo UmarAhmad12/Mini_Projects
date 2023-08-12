@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myTunes Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7a4b62b0a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">myTunes</div>
+        <ul>
+          <a href="#hero">
+            <li>Overview</li>
+          </a>
+          <a href="#music">
+            <li>Music</li>
+          </a>
+          <a href="#video">
+            <li>Video</li>
+          </a>
+          <a href="#gift">
+            <li>Gift Cards</li>
+          </a>
+        </ul>
+
+        <div class="menu_bar" id="menuBar">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+
+      <div class="menu_mobile">
+        <div class="close_btn_container">
+          <button onclick="onClose()">Close</button>
+        </div>
+        <ul>
+          <a href="#hero" onclick="onClose()">
+            <li>Overview</li>
+          </a>
+          <a href="#music" onclick="onClose()">
+            <li>Music</li>
+          </a>
+          <a href="#video" onclick="onClose()">
+            <li>Video</li>
+          </a>
+          <a href="#gift" onclick="onClose()">
+            <li>Gift Cards</li>
+          </a>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
