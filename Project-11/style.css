@@ -201,3 +201,47 @@ nav ul li:hover {
 .gift-section {
   scroll-margin: 12rem;
 }
+
+@media (max-width: 1024px) {
+  .gift-card img {
+    width: 40rem;
+  }
+  .ipad-iphone-img {
+    margin-top: -20rem;
+    top: 20rem;
+  }
+  .about-music {
+    padding-top: 30rem;
+  }
+  .ipad-iphone-img img,
+  .mac-img img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gift-section {
+    flex-direction: column;
+  }
+  .gift-section img {
+    width: 100%;
+  }
+  html {
+    font-size: 40%;
+  }
+  nav ul {
+    display: none;
+  }
+  .menu_bar i {
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+
+  .footer-upper .container {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .footer-upper .footer-links {
+    min-width: 20rem;
+  }
+}
