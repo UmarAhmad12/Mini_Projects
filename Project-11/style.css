@@ -147,3 +147,57 @@ nav ul li:hover {
   color: white;
   text-align: center;
 }
+
+.video-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: -20rem;
+}
+.hero-section,
+.video-section {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gift-section {
+  display: flex;
+  justify-content: center;
+  margin: 10rem 0;
+  gap: 5rem;
+}
+
+.gift-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-upper {
+  background-color: var(--purple600);
+  padding: 2rem;
+}
+.footer-upper .container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer-upper h4 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid white;
+  margin-bottom: 1rem;
+}
+.footer-lower {
+  background-color: var(--purple300);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.gift-section {
+  scroll-margin: 12rem;
+}
