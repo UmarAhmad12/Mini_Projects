@@ -12,3 +12,72 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+  font-size: 1.6rem;
+}
+
+section {
+  scroll-margin: 5rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+header {
+  background-color: var(--purple300);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 2rem 0;
+}
+.logo {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  border: none;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+}
+nav ul li:hover {
+  border-bottom: 2px solid white;
+  transition: 0.2s ease-in;
+}
