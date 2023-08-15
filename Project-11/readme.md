@@ -1,1 +1,1 @@
-# In this project I have complted a Drawer & Dropdown Menu App.
+# In this project I have completed a Drawer & Dropdown Menu App.
