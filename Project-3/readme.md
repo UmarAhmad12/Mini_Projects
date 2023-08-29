@@ -1,1 +1,1 @@
-# In this project i have created a percentage calculator app.
+# In this project i have created a percentage calculator application.
