@@ -1,1 +1,1 @@
-# In this Project I have created Products Searcher Application.
+# In this Project I have created Search Products Application using HTML, CSS and Javascript.
