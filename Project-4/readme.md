@@ -1,1 +1,1 @@
-# In this project I have created a Math Quiz Game. 
+#  "Math Quiz Game using HTML, CSS and JavaScript. 
